@@ -28,4 +28,4 @@ ________________________________________________________________________
 
 Jenkins Commends:
 
-docker run -p 8080:8080 -p 5000 5000 -d -v jenkins_home:/var/jenkins_home   jenkins/jenkins
+docker run -p 8080:8080 -p 5000:5000 -d -v jenkins_home:/var/jenkins_home   jenkins/jenkins

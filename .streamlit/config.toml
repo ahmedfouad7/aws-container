@@ -1,0 +1,12 @@
+[theme]
+base="light"
+font = "sans serif"
+primaryColor="#F63366"
+backgroundColor="#FFFFFF"
+textColor="#27374D"
+
+
+
+[server]
+port = 9090
+headless = true
