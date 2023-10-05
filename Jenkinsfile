@@ -27,12 +27,20 @@
 
  
 pipeline {
-    agent any
+    // agent any
+    agent {
+        docker { image 'python:3.9' }
+    }
     environment {
         // Define environment variables for Docker Hub credentials, image name, etc.
         // DOCKERHUB_CREDENTIALS = credentials('dockerhub')
         IMAGE_NAME = 'my-python-app'
         IMAGE_TAG  =  2.0  // "${env.BUILD_NUMBER}"
+    }
+    tools{
+        maven
+        gradle
+        docker
     }
     stages {
         // stage('Checkout') {
