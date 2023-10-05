@@ -28,9 +28,14 @@
  
 pipeline {
     // agent any
-    agent {
-        dockerContainer { image 'node:18.18.0-alpine3.18' }
+    // agent {
+    //     dockerContainer { image 'node:18.18.0-alpine3.18' }
+    // }
+      agent {
+        // Build a Docker image from the Dockerfile in the root directory
+        dockerfile true
     }
+    
     environment {
         // Define environment variables for Docker Hub credentials, image name, etc.
         // DOCKERHUB_CREDENTIALS = credentials('dockerhub')
