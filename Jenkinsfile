@@ -37,11 +37,11 @@ pipeline {
         IMAGE_NAME = 'my-python-app'
         IMAGE_TAG  =  2.0  // "${env.BUILD_NUMBER}"
     }
-    tools{
-        maven
-        gradle
-        docker
-    }
+    // tools{
+    //     maven
+    //     gradle
+    //     docker
+    // }
     stages {
         // stage('Checkout') {
         //     steps {
