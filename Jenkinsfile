@@ -30,7 +30,7 @@ pipeline {
     agent any
     environment {
         // Define environment variables for Docker Hub credentials, image name, etc.
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub')
+        // DOCKERHUB_CREDENTIALS = credentials('dockerhub')
         IMAGE_NAME = 'my-python-app'
         IMAGE_TAG  =  2.0  // "${env.BUILD_NUMBER}"
     }
