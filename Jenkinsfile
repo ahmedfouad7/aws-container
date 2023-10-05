@@ -5,6 +5,7 @@ pipeline{
             steps{
                 echo'building the application...'
                  echo'this is a test script the application...'
+                 echo'this is a test script the application...'
             }
         }
 
