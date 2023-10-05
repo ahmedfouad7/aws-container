@@ -53,14 +53,14 @@ pipeline {
                 sh "docker build -t ${env.IMAGE_NAME}:${env.IMAGE_TAG} ."
             }
         }
-        stage('Push') {
+        // stage('Push') {
             // steps {
             //     // Login to Docker Hub
             //     // sh "docker login -u ${env.DOCKERHUB_CREDENTIALS_USR} -p ${env.DOCKERHUB_CREDENTIALS_PSW}"
             //     // Push the image to Docker Hub
             //     // sh "docker push ${env.IMAGE_NAME}:${env.IMAGE_TAG}"
             // }
-        }
+        // }
         stage('Deploy') {
             steps {
                 // Deploy the image to a target environment
