@@ -29,7 +29,7 @@
 pipeline {
     // agent any
     agent {
-        dockerContainer { image 'python:3.9' }
+        dockerContainer { image 'node:18.18.0-alpine3.18' }
     }
     environment {
         // Define environment variables for Docker Hub credentials, image name, etc.
