@@ -27,12 +27,7 @@
 
  
 pipeline {
-    // agent any
-    agent {
-        dockerContainer {dockerfile true }
-    }
-       
-
+    agent any 
     environment {
         // Define environment variables for Docker Hub credentials, image name, etc.
         // DOCKERHUB_CREDENTIALS = credentials('dockerhub')
