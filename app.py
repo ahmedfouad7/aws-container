@@ -29,5 +29,12 @@ st.markdown(
   ## Medical Procedures on Flexible Installments
 
 **Pay on flexible installment plans for any surgical operation or medical procedure with ADVA. Choose from a wide network of doctors, clinics & hospitals to book your medical procedure on flexible installments up to 24 months and with the lowest interest price. Pay your operation expenses for up to 60 months.**
+
+
+## Education Tuition Fees on Flexible Installments
+
+**Worry less and pay education tuition fees on flexible installment plans. Protect your children’s future with ADVA and pay the tuition fees of any school, university, courses, or workshops on flexible installments up to 12 months with the lowest interest price. Pay any educational service with ADVA App on flexible installments**
+
+
 """
 )
