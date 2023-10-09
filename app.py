@@ -35,6 +35,7 @@ st.markdown(
 
 **Worry less and pay education tuition fees on flexible installment plans. Protect your children’s future with ADVA and pay the tuition fees of any school, university, courses, or workshops on flexible installments up to 12 months with the lowest interest price. Pay any educational service with ADVA App on flexible installments**
 
+## Thank You!
 
 """
 )
