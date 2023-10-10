@@ -49,7 +49,7 @@ pipeline {
             steps {
                 script {
                     sh """
-                        aws ecs update-service --cluster jenkins-demo --service  jenkins-demo-1-1  --force-new-deployment
+                        aws ecs update-service --cluster jenkins-demo --service  jenkins-service1-1  --force-new-deployment
                     """
                 }
             }
